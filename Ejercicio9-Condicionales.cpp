@@ -19,9 +19,13 @@ int main (){
     //numero= 2152 -> 2000+100+50+2
 
     unidades = numero%10; numero/=10; //unidades=2 , numero=215
+    //cout<<"\nUnidades: "<<unidades<<" Numero: "<<numero<<endl;
     decenas = numero%10; numero/=10; //decenas=5, numero=21
+    //cout<<"Decenas: "<<decenas<<" Numero: "<<numero<<endl;
     centenas = numero%10; numero/=10; //centenas=1, numero=2
+    //cout<<"Centenas: "<<centenas<<" Numero: "<<numero<<endl;
     millar = numero%10; numero/=10; //millar=2, numero = 0
+    //cout<<"Millares: "<<millar<<" Numero: "<<numero<<endl;
 
     switch(millar){
         case 1: cout<<"M";break;

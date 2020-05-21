@@ -1,4 +1,4 @@
-/*8. Escriba un programa que lea de la entrada estándar los dos catetos de un triangulo rectángulo y escriba en la salida estándar su hipotenusa. */
+/*8. Escriba un programa que lea de la entrada estándar los dos catetos de un triángulo rectángulo y escriba en la salida estándar su hipotenusa. */
 
 #include<iostream>
 #include<math.h>
@@ -17,6 +17,7 @@ int main(){
     
     hipotenusa = sqrt(a+b);
 
+    cout.precision(3);
     cout<<"\nLa hipotenusa es = "<<hipotenusa<<endl;
 
     return 0;

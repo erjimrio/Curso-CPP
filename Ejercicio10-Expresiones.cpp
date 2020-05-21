@@ -1,4 +1,5 @@
-/*10. Escriba unprograma que calcule las soluciones de una ecuación de segundo grado de la forma ax^2+bx+c=0, teniendo en cuenta que: */
+/*10. Escriba un programa que calcule las soluciones de una ecuación de segundo grado de la forma ax^2+bx+c=0, teniendo en cuenta que: 
+(-b+sqrt(pow(b,2)-4*a*c))/(2*a) y (-b-sqrt(pow(b,2)-4*a*c))/(2*a)*/
 
 #include<iostream>
 #include<math.h>
@@ -17,6 +18,6 @@ int main(){
     x2 = (-(b)-sqrt((pow(b,2)-(4*a*c))))/(2*a);
 
     cout<<"\nSolucion x1 = "<<x1<<endl;
-    cout<<"\nSolucion x2 = "<<x2<<endl;
+    cout<<"Solucion x2 = "<<x2<<endl;
     return 0;
 }

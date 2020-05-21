@@ -3,13 +3,16 @@
 #include<iostream>
 using namespace std;
 int main (){
-    float numero;
+    int numero;
     cout<<"Digite un numero: "; cin>>numero;
-    if (numero<0){
-        cout<<"El numero es negativo";
+    if (numero == 0){
+        cout<<"\nEl numero es cero"<<endl;
+    }
+    else if (numero<0){
+        cout<<"\nEl numero es negativo"<<endl;
     }
     else{
-        cout<<"El numero es positivo";
+        cout<<"\nEl numero es positivo"<<endl;
     }
     return 0;
 }

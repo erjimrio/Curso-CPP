@@ -8,18 +8,20 @@ int main(){
     cin>>mes;
 
     switch(mes){
-        case 1: cout<<"\nEl mes es enero"; break;
-        case 2: cout<<"\nEl mes es febrero"; break;
-        case 3: cout<<"\nEl mes es marzo"; break;
-        case 4: cout<<"\nEl mes es abril"; break;
-        case 5: cout<<"\nEl mes es mayo"; break;
-        case 6: cout<<"\nEl mes es junio"; break;
-        case 7: cout<<"\nEl mes es julio"; break;
-        case 8: cout<<"\nEl mes es agosto"; break;
-        case 9: cout<<"\nEl mes es septiembre"; break;
-        case 10: cout<<"\nEl mes es octubre"; break;
-        case 11: cout<<"\nEl mes es noviembre"; break;
-        case 12: cout<<"\nEl mes es diciembre"; break;
+        case 1: cout<<"\nEl mes es enero"<<endl; break;
+        case 2: cout<<"\nEl mes es febrero"<<endl; break;
+        case 3: cout<<"\nEl mes es marzo"<<endl; break;
+        case 4: cout<<"\nEl mes es abril"<<endl; break;
+        case 5: cout<<"\nEl mes es mayo"<<endl; break;
+        case 6: cout<<"\nEl mes es junio"<<endl; break;
+        case 7: cout<<"\nEl mes es julio"<<endl; break;
+        case 8: cout<<"\nEl mes es agosto"<<endl; break;
+        case 9: cout<<"\nEl mes es septiembre"<<endl; break;
+        case 10: cout<<"\nEl mes es octubre"<<endl; break;
+        case 11: cout<<"\nEl mes es noviembre"<<endl; break;
+        case 12: cout<<"\nEl mes es diciembre"<<endl; break;
+        default:
+            cout<<"\nValor erroneo"<<endl; break;
     }
     return 0;
 }

@@ -15,21 +15,21 @@ int main(){
 
     switch(opc){
         case 1:
-            cout<<"Digite la cantidad de dinero a ingresar: ";
+            cout<<"\nDigite la cantidad de dinero a ingresar: ";
             cin>>extra;
             saldo = saldo_inicial + extra;
-            cout<<"Dinero en cuenta: $"<<saldo;break;
+            cout<<"\nDinero en cuenta: $"<<saldo;break;
 
         case 2:
-            cout<<"Digite la cantidad de dinero que va a retirar: ";
+            cout<<"\nDigite la cantidad de dinero que va a retirar: ";
             cin>>retiro;
 
             if (retiro > saldo_inicial){
-                cout<<"No tiene esa cantidad de dinero";
+                cout<<"\nNo tiene esa cantidad de dinero";
             }
             else{
                 saldo = saldo_inicial - retiro;
-                cout<<"Dinero en cuenta: $"<<saldo; break;
+                cout<<"\nDinero en cuenta: $"<<saldo; break;
             }
         case 3: break;
     }

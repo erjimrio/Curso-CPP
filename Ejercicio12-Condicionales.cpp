@@ -8,12 +8,13 @@ Caso 3: Salir
 #include<math.h>
 using namespace std;
 int main(){
-    int opcion, numero, cubo;
+    int opcion, num;
+    float numero, cubo;
 
-    cout<<"Menu:"<<endl;
-    cout<<"\t1. Cubo de un numero."<<endl;
-    cout<<"\t2. Numero par o impar"<<endl;
-    cout<<"\t3. Salir"<<endl;
+    cout<<"\tMenu:"<<endl;
+    cout<<"1. Cubo de un numero."<<endl;
+    cout<<"2. Numero par o impar"<<endl;
+    cout<<"3. Salir"<<endl;
     cout<<"Elige una opcion: ";
     cin>>opcion;
 
@@ -26,8 +27,8 @@ int main(){
 
         case 2:
             cout<<"Digite un numero: ";
-            cin>>numero;
-            if (numero%2 == 0){
+            cin>>num;
+            if (num%2 == 0){
                 cout<<"El numero es PAR"<<endl;break;
             }
             else{

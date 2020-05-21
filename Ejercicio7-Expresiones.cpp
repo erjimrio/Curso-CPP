@@ -1,4 +1,4 @@
-/*7. La calificación final de un estudiante es la media ponderada de tres notas: La nota de prácticas que cuenta un 30% del total, la nota teórica que cuenta un 60% y la nota de participación que cuenta el 10% restante. Escriba un programa que lea de la entrada estándar las tres notas de un alumno y escriba en la salida estandar su nota final.*/
+/*7. La calificación final de un estudiante es la media ponderada de tres notas: La nota de prácticas que cuenta un 30% del total, la nota teórica que cuenta un 60% y la nota de participación que cuenta el 10% restante. Escriba un programa que lea de la entrada estándar las tres notas de un alumno y escriba en la salida estándar su nota final.*/
 
 #include<iostream>
 using namespace std;

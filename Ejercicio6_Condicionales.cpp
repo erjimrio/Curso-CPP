@@ -13,13 +13,13 @@ int main(){
         case 'e':
         case 'i':
         case 'o':
-        case 'u': cout<<"\nEs una vocal minuscula"; break;
+        case 'u': cout<<"\nEs una vocal minuscula"<<endl; break;
         case 'A':
         case 'E':
         case 'I':
         case 'O':
-        case 'U': cout<<"\nEs una vocal mayuscula"; break;
-        default: cout<<"\nNo es una vocal"; break;
+        case 'U': cout<<"\nEs una vocal mayuscula"<<endl; break;
+        default: cout<<"\nNo es una vocal"<<endl; break;
     }
 
     return 0;

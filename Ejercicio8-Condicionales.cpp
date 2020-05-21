@@ -5,16 +5,15 @@ using namespace std;
 int main(){
     int num1, num2, num3, num4;
 
-    cout<<"Introduce num1: "; cin>>num1;
-    cout<<"Introduce num2: "; cin>>num2;
-    cout<<"Introduce num3: "; cin>>num3;
-    cout<<"Introduce num4: "; cin>>num4;
+    cout<<"\nIntroduce 3 numeros: "; cin>>num1>>num2>>num3;
+    
+    cout<<"\nIntroduce un cuarto numero: "; cin>>num4;
 
-    if (num4 == num1 or num4 == num2 or num4 == num3){
-        cout<<"num4 coincide con uno de los numeros antes introducidos";
+    if (num4 == num1 || num4 == num2 || num4 == num3){
+        cout<<"\nEl cuarto numero coincide almenos con uno de los numeros antes introducidos"<<endl;
     } 
     else{
-        cout<<"num4 no coincide con los numeros introducidos";
+        cout<<"\nEl cuarto numero no coincide con los numeros introducidos"<<endl;
     }
     return 0;
 }
