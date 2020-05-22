@@ -5,6 +5,8 @@
 using namespace std;
 int main(){
     int numero, contador = 0;
+    
+    /* Mi versión
     cout<<"Digite un numero: ";
     cin>>numero;
     while (numero!=0){
@@ -14,7 +16,17 @@ int main(){
         cout<<"Digite un numero: ";
         cin>>numero;
     }
-    cout<<"Total de numeros mayores que 0: "<<contador<<endl;
+    cout<<"Total de numeros mayores que 0: "<<contador<<endl;*/
+
+    do{
+        cout<<"Digite un numero: ";
+        cin>>numero;
+
+        if (numero>0){
+            contador++;
+        }
+    }while(numero !=0);
+    cout<<"\nEl numero de valores mayores a cero introducidos es: "<<contador<<endl;
     system("pause");
     return 0;
 }
