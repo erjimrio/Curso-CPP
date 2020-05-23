@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(){
-    int precio;
-    float iva;
+    float precio, iva;
     cout<<"Digite el precio del producto: "; cin>>precio;
-    
-    iva=precio+((precio*16)/100);
+    // ((precio*16)/100 = precio*.16
+    // precio+(precio*.16) = precio * 1.16
+    iva = precio * 1.16;
     cout<<"\nEl precio con iva es: $"<<iva<<endl;
     return 0;
 }
