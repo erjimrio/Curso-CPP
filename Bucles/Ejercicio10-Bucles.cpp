@@ -1,4 +1,4 @@
-/* 1.0 Escriba un programa que calcule el valor de : 1!+2!+3!+...+n! (Suma de factoriales). */
+/* 10. Escriba un programa que calcule el valor de : 1!+2!+3!+...+n! (Suma de factoriales). */
 
 #include<iostream>
 #include<stdlib.h> // System es para Windows OJO al correr el programa en otro SO
